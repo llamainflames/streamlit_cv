@@ -7,7 +7,7 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "cv.pdf"
-profile_pic = current_dir / "assets" / "pfp.jpg"
+profile_pic = current_dir / "assets" / "pfp.JPG"
 portfolio_images = list((current_dir / "assets" / "portfolio").glob("*.jpg"))
 video_files = [current_dir / "assets" / "video1.mp4", current_dir / "assets" / "video2.mp4"]
 

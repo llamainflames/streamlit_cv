@@ -1,0 +1,81 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+
+/* Force white background even in dark mode */
+html, body, .stApp {
+  background-color: white !important;
+  color: black;
+}
+
+/* Apply Ballet font only to headings */
+h1, h2, h3, h4, h5, h6, .page-title, .section-title {
+  font-family: 'Ballet', cursive !important;
+}
+
+/* Aplica Times solo al contenido principal, no a íconos de la interfaz */
+main, p, .stMarkdown, .element-container, .block-container {
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
+/* Page title styling */
+.page-title {
+  font-size: 6em; /* Aumentado para mayor jerarquía visual */
+  line-height: 1.1;
+  margin-bottom: 0.6em;
+}
+
+/* Section title styling */
+.section-title {
+  font-size: 3em; /* Aumentado pero aún claramente menor al título principal */
+  line-height: 1.2;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+}
+
+/* Remove default list styles if used */
+ul, ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Improve spacing in sidebar */
+section[data-testid="stSidebar"] > div {
+  padding: 1rem;
+}
+
+/* Optional: Make text more readable at large font sizes */
+p {
+  line-height: 1.6;
+  font-size: 1.3em;
+}
+
+/* Botón blanco con borde negro y texto negro */
+.custom-button button {
+  background-color: black !important;
+  color: white !important;
+  border: 2px solid black !important;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 0.5em 1.5em;
+}
+
+.custom-button button:hover {
+  background-color: #333 !important;
+  cursor: pointer;
+}
+
+/* Color personalizado para la barra lateral */
+section[data-testid="stSidebar"] {
+  background-color: #f3e5c5 !important;
+  color: black;
+}
+
+/* Asegurar legibilidad del texto en el sidebar */
+section[data-testid="stSidebar"] * {
+  color: black !important;
+}
+
+/* Estilo cursiva para hipervínculos en la barra lateral */
+section[data-testid="stSidebar"] a {
+  font-style: italic !important;
+}

@@ -1,6 +1,7 @@
 # Streamlit CV
 
 Este repositorio contiene una aplicación web interactiva desarrollada con [Streamlit](https://streamlit.io/) para mostrar un currículum vitae digital, portafolio y recursos multimedia.
+Para ver el prrgrama en Streamlit, click [aquí](https://clauportfolio.streamlit.app/).
 
 ## Características
 - Visualización de currículum en PDF.

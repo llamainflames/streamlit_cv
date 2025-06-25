@@ -9,7 +9,7 @@ html, body, .stApp {
 
 /* Apply Ballet font only to headings */
 h1, h2, h3, h4, h5, h6, .page-title, .section-title {
-  font-family: 'Ballet', cursive !important;
+  font-family: 'Ballet' !important;
 }
 
 /* Aplica Times solo al contenido principal, no a íconos de la interfaz */
